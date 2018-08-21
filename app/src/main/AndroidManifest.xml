@@ -13,7 +13,7 @@
 
         <!-- setting activity-alias names-->
         <activity-alias
-            android:name="in.myinnos.changeappiconandname.MainActivity-settings"
+            android:name="in.myinnos.changeappiconandname.MainActivity.settings"
             android:enabled="true"
             android:icon="@drawable/ic_settings"
             android:label="@string/app_settings"
@@ -26,7 +26,7 @@
         </activity-alias>
 
         <activity-alias
-            android:name="in.myinnos.changeappiconandname.MainActivity-camera"
+            android:name="in.myinnos.changeappiconandname.MainActivity.camera"
             android:enabled="false"
             android:icon="@drawable/ic_camera"
             android:label="@string/app_camera"
@@ -39,7 +39,7 @@
         </activity-alias>
 
         <activity-alias
-            android:name="in.myinnos.changeappiconandname.MainActivity-message"
+            android:name="in.myinnos.changeappiconandname.MainActivity.message"
             android:enabled="false"
             android:icon="@drawable/ic_message"
             android:label="@string/app_message"

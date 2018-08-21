@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
         btSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                activeName = "in.myinnos.changeappiconandname.MainActivity-settings";
-                disableNames.add("in.myinnos.changeappiconandname.MainActivity-message");
-                disableNames.add("in.myinnos.changeappiconandname.MainActivity-camera");
+                disableNames.clear();
+                activeName = "in.myinnos.changeappiconandname.MainActivity.settings";
+                disableNames.add("in.myinnos.changeappiconandname.MainActivity.message");
+                disableNames.add("in.myinnos.changeappiconandname.MainActivity.camera");
                 setAppIcon(activeName, disableNames);
             }
         });
@@ -39,9 +39,10 @@ public class MainActivity extends AppCompatActivity {
         btMessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activeName = "in.myinnos.changeappiconandname.MainActivity-message";
-                disableNames.add("in.myinnos.changeappiconandname.MainActivity-camera");
-                disableNames.add("in.myinnos.changeappiconandname.MainActivity-settings");
+                disableNames.clear();
+                activeName = "in.myinnos.changeappiconandname.MainActivity.message";
+                disableNames.add("in.myinnos.changeappiconandname.MainActivity.camera");
+                disableNames.add("in.myinnos.changeappiconandname.MainActivity.settings");
                 setAppIcon(activeName, disableNames);
             }
         });
@@ -49,9 +50,10 @@ public class MainActivity extends AppCompatActivity {
         btCamera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activeName = "in.myinnos.changeappiconandname.MainActivity-camera";
-                disableNames.add("in.myinnos.changeappiconandname.MainActivity-message");
-                disableNames.add("in.myinnos.changeappiconandname.MainActivity-settings");
+                disableNames.clear();
+                activeName = "in.myinnos.changeappiconandname.MainActivity.camera";
+                disableNames.add("in.myinnos.changeappiconandname.MainActivity.message");
+                disableNames.add("in.myinnos.changeappiconandname.MainActivity.settings");
                 setAppIcon(activeName, disableNames);
             }
         });
